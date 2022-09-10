@@ -17,6 +17,7 @@ on:
         type: choice
         options:
           - unifreq
+          - tiankongldp
           - kernel.org
       kernel_version:
         description: "Select kernel version"

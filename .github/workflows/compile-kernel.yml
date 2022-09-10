@@ -81,7 +81,7 @@ jobs:
           echo "::set-output name=status::success"
 
       - name: Compile the kernel
-        uses: ophub/amlogic-s9xxx-armbian@main
+        uses: tiankongldp/amlogic-s9xxx-armbian@main
         with:
           build_target: kernel
           kernel_repo: ${{ github.event.inputs.kernel_repo }}
